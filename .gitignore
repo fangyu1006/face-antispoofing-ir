@@ -1,0 +1,4 @@
+train_data/*
+models/*
+frozen_models/*
+*.h5
