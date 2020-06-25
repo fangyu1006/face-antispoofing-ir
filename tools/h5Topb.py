@@ -7,7 +7,7 @@ from keras import backend as K
 from tensorflow.python.framework.graph_util import convert_variables_to_constants
 import os
 import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), 'symbol'))
+sys.path.append("../symbol"))
 from resnet import resnet
 from mobilenetv2 import MobileNetv2 
 
